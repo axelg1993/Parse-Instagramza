@@ -13,6 +13,9 @@
 		775FFC561C976C8B0052191F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775FFC541C976C8B0052191F /* Main.storyboard */; };
 		775FFC581C976C8B0052191F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775FFC571C976C8B0052191F /* Assets.xcassets */; };
 		775FFC5B1C976C8B0052191F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775FFC591C976C8B0052191F /* LaunchScreen.storyboard */; };
+		776291DD1C9E1E4300792B99 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776291DC1C9E1E4300792B99 /* Post.swift */; };
+		776291DF1C9E1E6C00792B99 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776291DE1C9E1E6C00792B99 /* PostCell.swift */; };
+		776291E31C9E5EF800792B99 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776291E21C9E5EF800792B99 /* SubmitViewController.swift */; };
 		77C7464F1C991049004FD8A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C7464E1C991049004FD8A5 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		775FFC571C976C8B0052191F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775FFC5A1C976C8B0052191F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775FFC5C1C976C8B0052191F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776291DC1C9E1E4300792B99 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		776291DE1C9E1E6C00792B99 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		776291E21C9E5EF800792B99 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
 		77C7464E1C991049004FD8A5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B137D2DDD7692D2126AC90DA /* Pods_Parse_Instagramza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Instagramza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F499D3F615CD2CE776E1CF /* Pods-Parse-Instagramza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse-Instagramza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse-Instagramza/Pods-Parse-Instagramza.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +93,9 @@
 				775FFC591C976C8B0052191F /* LaunchScreen.storyboard */,
 				775FFC5C1C976C8B0052191F /* Info.plist */,
 				77C7464E1C991049004FD8A5 /* LoginViewController.swift */,
+				776291E21C9E5EF800792B99 /* SubmitViewController.swift */,
+				776291DC1C9E1E4300792B99 /* Post.swift */,
+				776291DE1C9E1E6C00792B99 /* PostCell.swift */,
 			);
 			path = "Parse-Instagramza";
 			sourceTree = "<group>";
@@ -217,6 +226,9 @@
 				77C7464F1C991049004FD8A5 /* LoginViewController.swift in Sources */,
 				775FFC531C976C8B0052191F /* ViewController.swift in Sources */,
 				775FFC511C976C8B0052191F /* AppDelegate.swift in Sources */,
+				776291DD1C9E1E4300792B99 /* Post.swift in Sources */,
+				776291E31C9E5EF800792B99 /* SubmitViewController.swift in Sources */,
+				776291DF1C9E1E6C00792B99 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

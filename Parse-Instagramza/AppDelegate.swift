@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 import Parse
 
 @UIApplicationMain
@@ -24,6 +25,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://calm-journey-62404.herokuapp.com/parse"
             })
         )
+        
+        
+        if PFUser.currentUser() != nil {
+            print("There is a current user")
+            
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let vc = storyBoard.instantiateViewControllerWithIdentifier("ViewNavigationController")
+            
+            window?.rootViewController = vc
+            
+        }
+        
         return true
     }
 
@@ -48,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    
 }
 
